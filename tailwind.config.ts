@@ -13,6 +13,9 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      img: {
+        'custom-image': "url('https://codeless.co/picante/presentation/wp-content/uploads/2018/06/slide-compressed.jpg')",
+      },
     },
   },
   plugins: [],

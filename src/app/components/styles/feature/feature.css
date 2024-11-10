@@ -1,0 +1,73 @@
+.f-txt{
+  text-align: center;
+}
+
+h4{
+  font-size: bold;
+  padding-top: 8rem;
+  font-size: larger;
+}
+
+.spn2{
+  color:brown
+}
+
+.paragph{
+  font-size: 19px;
+}
+
+.f-section{
+  max-width: 100%;
+  height:100vh;
+}
+
+.img-txt{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: brown;
+}
+
+
+/* Main Grid container */
+.main-div {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: 90%;
+  margin: auto;
+  margin-top: 5rem;
+  gap: 56px; 
+}
+
+/* Grid Item */
+.main-div > div {
+  position: relative;
+  overflow: hidden; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the container */
+  transition: transform 1s ease-in-out; /* Smooth scale transition on hover */
+}
+
+/* Hover effect on the image */
+.main-div > div:hover img {
+  transform: scale(1.1); /* Image grows on hover */
+}
+
+/* Text styling */
+.img-txt {
+  /* position: absolute; */
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+}

@@ -1,0 +1,48 @@
+.parent-div{
+  position: relative;
+}
+
+.clean{
+  height: 70vh;
+}
+
+.showcase{
+  background-image: url("https://codeless.co/picante/presentation/wp-content/uploads/2018/06/slide02-compressed.jpg");
+  max-width: 96%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+}
+
+.cen-txt{
+  display: flex;
+  color:white;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  gap:50px
+}
+
+.heading{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+i{
+  font-size: 50px;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+.hrr{
+  width: 100px;
+  height: 3;
+  color: white;
+}
+
+.texts{
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
